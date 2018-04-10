@@ -1,9 +1,9 @@
 ### My Google Code Jam Journey
 ---
 
-Just a repo to record my GCJ journey. Gonna update it every year.
+A repo to record my GCJ journey. Update every year.
 
-| Year | score | detail |
-| --- | --- | --- |
-| 2018 | 23 | [here](./2018/result.md) |
-| 2017 | 5 | [here](./2017/result.md) |
+| Year | Date | Score | Detail | Take away |
+| --- | --- | --- | --- | --- |
+| 2018 | Apr 7th | 23/100 | [here](./2018/result.md) | write decent tests |
+| 2017 | Apr 7th | 5/100 | [here](./2017/result.md) | be careful |
