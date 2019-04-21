@@ -12,4 +12,4 @@ A repo to record my GCJ journey. Update every year.
 
 Here are my other repos for algo practice:
 - [AlgoDaily](https://github.com/calvinchankf/AlgoDaily)
-- [GoogleKickStart](https://github.com/calvinchankf/googlekickstart)
+- [GoogleKickStart](https://github.com/calvinchankf/GoogleKickStart)
