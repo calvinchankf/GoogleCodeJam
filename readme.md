@@ -6,7 +6,7 @@ A repo to record my GCJ journey. Update every year.
 
 | Year | Date     | Round         | Score  | Detail                                | Take away                                               |
 | ---- | -------- | ------------- | ------ | ------------------------------------- | ------------------------------------------------------- |
-| 2020 | Apr 4th  | Qualification | 49/100 | [here](/2019/qualification/result.md) |                                                         |
+| 2020 | Apr 4th  | Qualification | 50/100 | [here](/2019/qualification/result.md) |                                                         |
 | 2019 | May 4th  | 1C            | 0/100  | [here](/2019/1c/result.md)            | This is my first time I cant even finished one question |
 | 2019 | Apr 28th | 1B            | 9/100  | [here](/2019/1b/result.md)            | need more practice                                      |
 | 2019 | Apr 13th | 1A            | 8/100  | [here](/2019/1a/result.md)            | need more practice                                      |
