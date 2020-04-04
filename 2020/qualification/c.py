@@ -1,5 +1,6 @@
 """
-    1st approach: hashtable
+    1st approach: sort
+    - classic interval problem
 
     Time    
     Space   

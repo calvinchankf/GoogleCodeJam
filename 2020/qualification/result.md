@@ -4,12 +4,12 @@
 
 |     | Question                     | small dataset | large dataset | extra large | remarks                    |
 | --- | ---------------------------- | ------------- | ------------- | ----------- | -------------------------- |
-| A   | Vestigium                    | ✅            |               |             |                            |
-| B   | Nesting Depth                | ✅            | ✅            |             |                            |
-| C   | Parenting Partnering Returns | ✅            | ✅            |             |                            |
+| A   | Vestigium                    | ✅            |               |             | hashtable                  |
+| B   | Nesting Depth                | ✅            | ✅            |             | stack concept              |
+| C   | Parenting Partnering Returns | ✅            | ✅            |             | sort (interval problem)    |
 | D   | ESAb ATAd                    | ❌            | ❌            |             | i hate interative question |
-| E   | Indicium                     | ❌            | ❌            |             |                            |
+| E   | Indicium                     | ✅            | ❌            |             | recursive backtracking     |
 
-score: 42/100
+score: 49/100
 
 ---
