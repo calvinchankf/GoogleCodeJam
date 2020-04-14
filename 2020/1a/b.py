@@ -56,14 +56,16 @@ def dfs(triangle, i, j, remain, path, hs):
             return b
     return None
 
-# f(1)
-# f(4)
-# f(19)
-# f(501)
-# f(1000)
-
 T = int(raw_input())  # read a line with a single integer
 for t in range(1, T + 1):
     N = int(raw_input())
     print("Case #{}:".format(t))
     f(N)
+
+print("-----")
+
+f(1)
+f(4)
+f(19)
+f(501)
+f(1000)
