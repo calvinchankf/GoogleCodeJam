@@ -2,10 +2,10 @@
 
 ### Round 1B
 
-|     | Question             | small dataset | medium dataset | large dataset | remarks                                 |
-| --- | -------------------- | ------------- | -------------- | ------------- | --------------------------------------- |
-| A   | Expogo               | ✅            | ❌✅           | ❌            | bfs + observation(odd coordinates)      |
-| B   | Blindfolded Bullseye | ❌            | ❌             | ❌            | recursion                               |
-| C   | Join the Ranks       | ❌            | ❌             |               | should have done this first, 30min only |
+|     | Question             | small dataset | medium dataset | large dataset | remarks                            |
+| --- | -------------------- | ------------- | -------------- | ------------- | ---------------------------------- |
+| A   | Expogo               | ✅            | ❌✅           | ❌            | bfs + observation(odd coordinates) |
+| B   | Blindfolded Bullseye | ❌            | ❌             | ❌            | interative, binary search          |
+| C   | Join the Ranks       | ❌            | ❌             |               | bfs / math                         |
 
 score: 5/100
