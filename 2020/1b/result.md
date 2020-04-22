@@ -5,7 +5,7 @@
 |     | Question             | small dataset | medium dataset | large dataset | remarks                            |
 | --- | -------------------- | ------------- | -------------- | ------------- | ---------------------------------- |
 | A   | Expogo               | ✅            | ❌✅           | ❌            | bfs + observation(odd coordinates) |
-| B   | Blindfolded Bullseye | ❌            | ❌             | ❌            | interative, binary search          |
+| B   | Blindfolded Bullseye | ❌✅          | ❌✅           | ❌            | interative, binary search          |
 | C   | Join the Ranks       | ❌            | ❌             |               | bfs / math                         |
 
 score: 5/100
