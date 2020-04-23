@@ -23,7 +23,7 @@ import sys
 
     Small Testset:      Pass
     Medium Testset:     Pass
-    Large Testset:     Fail ?!?
+    Large Testset:      Fail ?!?
 """
 
 def binarySearchTop(x, y):
@@ -103,9 +103,8 @@ def f(A, B):
                 print("{} {}".format(x, y))
                 sys.stdout.flush()
                 s = input()
-                if s == 'CENTER':
-                    return x, y
-                elif s == 'HIT':
+                if s == 'CENTER': return None
+                if s == 'HIT':
                     isFound = True
                     break
             if isFound:
