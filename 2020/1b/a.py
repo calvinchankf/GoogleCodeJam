@@ -5,8 +5,9 @@
         and all jumps after that are of even lengths. 
     - So there is no way to reach any other "even" position starting from the origin, no matter how much jumping we do.
 
-    Time    
-    Space   
+    Small dataset   Pass
+    Medium dataset  Pass
+    Large dataset   Fail
 """
 def f(X, Y):
     if (X + Y) % 2 == 0:
@@ -33,10 +34,73 @@ def f(X, Y):
             q.append((i + di * 2**steps, j + dj * 2**steps, steps + 1, path + key))
     return 'IMPOSSIBLE'
 
-for i in range(-100, 101):
-    for j in range(-100, 101):
-        print(i, j, '->')
+# to observe the pattern, here we see that only odd sum coordinates are reachable
+for i in range(-4, 5):
+    for j in range(-4, 5):
         print(f(i, j))
+
+
+# # input() reads a string with a line of input, stripping the ' ' (newline) at the end.
+# # This is all you need for most Code Jam problems.
+# T = int(raw_input())  # read a line with a single integer
+# for t in range(1, T + 1):
+#     X, Y = [int(s) for s in raw_input().split(" ")]
+#     res = f(X, Y)
+#     print("Case #{}: {}".format(t, res))
+
+print("-----")
+
+"""
+    2nd: math + hashtable
+    - see a.jpeg
+
+    Small dataset   Pass
+    Medium dataset  Pass
+    Large dataset   Pass
+"""
+def f(A, B):
+    hs = set()
+    def dfs(X, Y):
+        if X == 0 and Y == 0:
+            return ''
+        if (X + Y) % 2 == 0:
+            return None
+        if (X, Y) in hs:
+            return None
+        hs.add((X, Y))
+        if X%2 != 0:
+            a = dfs((X-1)/2, Y/2)
+            if a != None:
+                return 'E' + a
+            b = dfs((X+1)/2, Y/2)
+            if b != None:
+                return 'W' + b
+        if Y%2 != 0:
+            a = dfs(X/2, (Y-1)/2)
+            if a != None:
+                return 'N' + a
+            b = dfs(X/2, (Y+1)/2)
+            if b != None:
+                return 'S' + b
+    return dfs(A, B)
+
+
+# print(f(2, 3))
+# print(f(-2, -3))
+# print(f(3, 0))
+# print(f(-1, 1))
+# print(f(7, 10))
+
+# print(f(3, 2))
+# print(f(-3, -2))
+
+for i in range(-4, 5):
+    for j in range(-4, 5):
+        res = f(i, j)
+        if res == None:
+            print("IMPOSSIBLE")
+        else:
+            print(res)
 
 
 # input() reads a string with a line of input, stripping the ' ' (newline) at the end.
@@ -45,4 +109,7 @@ T = int(raw_input())  # read a line with a single integer
 for t in range(1, T + 1):
     X, Y = [int(s) for s in raw_input().split(" ")]
     res = f(X, Y)
-    print("Case #{}: {}".format(t, res))
+    if res == None:
+        print("Case #{}: IMPOSSIBLE".format(t))
+    else:
+        print("Case #{}: {}".format(t, res))
