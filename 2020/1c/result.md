@@ -9,3 +9,5 @@
 | C   | Oversized Pancake | ❌            | ❌             | ❌            | no idea for now           |
 
 score: 31/100
+
+![ranking](./ranking.png)
