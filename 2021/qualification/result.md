@@ -2,13 +2,13 @@
 
 ### Qualification Round
 
-|     | Question              | small dataset | large dataset | extra large | remarks     |
-| --- | --------------------- | ------------- | ------------- | ----------- | ----------- |
-| A   | Reversort             | ✅            |               |             | brute force |
-| B   | Moons and Umbrellas   | ✅            | ✅            |             | greedy      |
-| C   | Reversort Engineering | ✅            | ❌            |             | brute force |
-| D   | Median Sort           | ❌            | ❌            | ❌          | lazy me     |
-| E   | Cheating Detection    | ❌            | ❌            |             | lazy me     |
+|     | Question              | small dataset | large dataset | extra large | remarks             |
+| --- | --------------------- | ------------- | ------------- | ----------- | ------------------- |
+| A   | Reversort             | ✅            |               |             | brute force         |
+| B   | Moons and Umbrellas   | ✅            | ✅            | ❌ ✅       | dynamic programming |
+| C   | Reversort Engineering | ✅            | ❌            |             | brute force         |
+| D   | Median Sort           | ❌            | ❌            | ❌          | lazy me             |
+| E   | Cheating Detection    | ❌            | ❌            |             | lazy me             |
 
 score: 30/100
 
