@@ -2,10 +2,10 @@
 
 ### Round 1A
 
-|     | Question    | small dataset | medium dataset | large dataset | remarks |
-| --- | ----------- | ------------- | -------------- | ------------- | ------- |
-| A   | Append Sort | ❌            | ❌             |               | wtf??   |
-| B   | Prime Time  | ✅            | ❌             | ❌            | DP      |
-| C   | Hacked Exam | ❌            | ❌             | ❌            |         |
+|     | Question    | small dataset | medium dataset | large dataset | remarks   |
+| --- | ----------- | ------------- | -------------- | ------------- | --------- |
+| A   | Append Sort | ❌✅          | ❌✅           |               | greedy AF |
+| B   | Prime Time  | ✅            | ❌             | ❌            | DP        |
+| C   | Hacked Exam | ❌            | ❌             | ❌            |           |
 
 score: 7/100
