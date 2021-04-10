@@ -6,6 +6,7 @@ A repo to record my GCJ journey. Update every year.
 
 | Year | Date   | Round         | Result                                | remarks              |
 | ---- | ------ | ------------- | ------------------------------------- | -------------------- |
+| 2021 | Apr 10 | 1A            | [here](/2021/1a/result.md)            |                      |
 | 2021 | Mar 27 | Qualification | [here](/2021/qualification/result.md) | good job but lazy me |
 | 2020 | May 2  | 1C            | [here](/2020/1c/result.md)            |                      |
 | 2020 | Apr 20 | 1B            | [here](/2020/1b/result.md)            | too much math        |
